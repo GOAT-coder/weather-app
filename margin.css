@@ -1,0 +1,48 @@
+body{
+    background-color: yellowgreen;
+}
+/* TOO,RIGHT,BOTTOM,LEFT */
+#mar{
+    background-color: beige;
+    border: 3px solid black;
+    margin: 10px 50px 0 0;
+}
+#peace{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#peace h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: none;
+}
+#peace p{
+    font-size: 1.3rem;
+    line-height: 20px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    padding: 0 20px 0px 20px;
+}
+.good a {
+    color: red;
+    text-decoration: none;
+}
+.good a:hover{
+    color: greenyellow;
+    background-color: green;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.good ul{
+    display: inline-block;
+}
+.good ul li a{
+    color: green;
+}
